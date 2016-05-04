@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Campus</string>
+    <string name="enter_number">请输入学号</string>
+    <string name="enter_password">请输入密码</string>
+    <string name="and">and</string>
+    <string name="login">学号登陆</string>
+    <string name="third_login">第三方登陆</string>
+    <string name="use_third_login">使用以下第三方账号登陆</string>
+    <string name="change_login_method">切换登陆方式</string>
+</resources>

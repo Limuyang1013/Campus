@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_bg_back"
+            android:text="@string/login"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/third_login_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="15dp"
+                android:background="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/use_third_login"
+                android:textSize="20sp"
+                android:textColor="#ffffff" />
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:background="#ffffff" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_thirdlogin"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/login_bg_back"
+            android:text="@string/third_login"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/third_icon_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="invisible"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="15dp"
+                android:background="@mipmap/qq" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="15dp"
+                android:background="@mipmap/wechat" />
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="15dp"
+                android:background="@mipmap/sina" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/change_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:orientation="horizontal"
+            >
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="15dp"
+                android:background="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/change_login_method"
+                android:textSize="20sp"
+                android:textColor="#ffffff" />
+
+            <View
+                android:layout_width="60dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:background="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
