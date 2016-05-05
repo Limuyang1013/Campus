@@ -2,6 +2,6 @@
     android:duration="1500"
     android:startOffset="1000"
     >
-    <translate android:fromYDelta="10%p" android:toYDelta="0" />
+    <translate android:fromYDelta="20%p" android:toYDelta="0" />
     <alpha android:fromAlpha="0.0" android:toAlpha="1.0"  />
 </set>
